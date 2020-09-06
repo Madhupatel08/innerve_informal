@@ -185,15 +185,11 @@ h2{
     }
     
     .hiddentext {
-      display: ruby-text ;
+      display:  ;
     }
     .hiddendiv:hover {
       
       position: absolute;
-      top: 0;
-      left: 0;
-      
-      
     }
     
     
@@ -639,9 +635,13 @@ h2{
 
 
                    -----------------/* minor events picture animation*/----------------------
+
+
+                   .change{
+                   }
                    .view {
-                    width: 300px;
-                    height: 200px;
+                    width: 400px;
+                    height: 250px;
                     margin: 10px;
                     float: left;
                     border: 10px solid #fff;
@@ -660,7 +660,7 @@ h2{
                     position: absolute;
                     overflow: hidden;
                     top: 0px;
-                    left: 20px;
+                    left: 0px;
                     
                     
                  }
