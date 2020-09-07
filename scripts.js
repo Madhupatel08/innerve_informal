@@ -1,10 +1,10 @@
 function popupOpen1(popup) {
-	
+
 	/* Add div inside popup for layout if one doesn't exist */
 	if ($(".wrapper1").length == 0){
 		$(popup).wrapInner("<div class='wrapper1'></div>");
 	}
-	
+
 	/* Open popup */
 	$(popup).show();
 
@@ -20,12 +20,12 @@ function popupOpen1(popup) {
 }
 
 function popupOpen2(popup) {
-	
+
 	/* Add div inside popup for layout if one doesn't exist */
 	if ($(".wrapper2").length == 0){
 		$(popup).wrapInner("<div class='wrapper2'></div>");
 	}
-	
+
 	/* Open popup */
 	$(popup).show();
 
@@ -41,12 +41,12 @@ function popupOpen2(popup) {
 }
 
 function popupOpen3(popup) {
-	
+
 	/* Add div inside popup for layout if one doesn't exist */
 	if ($(".wrapper3").length == 0){
 		$(popup).wrapInner("<div class='wrapper3'></div>");
 	}
-	
+
 	/* Open popup */
 	$(popup).show();
 
@@ -62,12 +62,12 @@ function popupOpen3(popup) {
 }
 
 function popupOpen4(popup) {
-	
+
 	/* Add div inside popup for layout if one doesn't exist */
 	if ($(".wrapper4").length == 0){
 		$(popup).wrapInner("<div class='wrapper4'></div>");
 	}
-	
+
 	/* Open popup */
 	$(popup).show();
 
@@ -83,12 +83,12 @@ function popupOpen4(popup) {
 }
 
 function popupOpen5(popup) {
-	
+
 	/* Add div inside popup for layout if one doesn't exist */
 	if ($(".wrapper5").length == 0){
 		$(popup).wrapInner("<div class='wrapper5'></div>");
 	}
-	
+
 	/* Open popup */
 	$(popup).show();
 
@@ -104,12 +104,12 @@ function popupOpen5(popup) {
 }
 
 function popupOpen6(popup) {
-	
+
 	/* Add div inside popup for layout if one doesn't exist */
 	if ($(".wrapper6").length == 0){
 		$(popup).wrapInner("<div class='wrapper6'></div>");
 	}
-	
+
 	/* Open popup */
 	$(popup).show();
 
@@ -143,22 +143,120 @@ $(document).ready(function () {
 	$("[data-js=open6]").on("click", function() {
 		popupOpen6($(".popup6"));
 	});
+	$("[data-js=open7]").on("click", function() {
+		popupOpen6($(".popup7"));
+	});
 });
 
 
+// **********************major events************
 
+function popupOpen7(popup) {
 
+	/* Add div inside popup for layout if one doesn't exist */
+	if ($(".wrapper7").length == 0){
+		$(popup).wrapInner("<div class='wrapper7'></div>");
+	}
+
+	/* Open popup */
+	$(popup).show();
+
+	/* Close popup if user clicks on background */
+	$(popup).click(function(e) {
+		if ( e.target == this ) {
+			if ($(popup).is(':visible')) {
+				$(popup).hide();
+			}
+		}
+	});
+
+}
+function popupOpen8(popup) {
+
+	/* Add div inside popup for layout if one doesn't exist */
+	if ($(".wrapper8").length == 0){
+		$(popup).wrapInner("<div class='wrapper6'></div>");
+	}
+
+	/* Open popup */
+	$(popup).show();
+
+	/* Close popup if user clicks on background */
+	$(popup).click(function(e) {
+		if ( e.target == this ) {
+			if ($(popup).is(':visible')) {
+				$(popup).hide();
+			}
+		}
+	});
+
+}
+function popupOpen9(popup) {
+
+	/* Add div inside popup for layout if one doesn't exist */
+	if ($(".wrapper9").length == 0){
+		$(popup).wrapInner("<div class='wrapper9'></div>");
+	}
+
+	/* Open popup */
+	$(popup).show();
+
+	/* Close popup if user clicks on background */
+	$(popup).click(function(e) {
+		if ( e.target == this ) {
+			if ($(popup).is(':visible')) {
+				$(popup).hide();
+			}
+		}
+	});
+
+}
+function popupOpen10(popup) {
+
+	/* Add div inside popup for layout if one doesn't exist */
+	if ($(".wrapper10").length == 0){
+		$(popup).wrapInner("<div class='wrapper10'></div>");
+	}
+
+	/* Open popup */
+	$(popup).show();
+
+	/* Close popup if user clicks on background */
+	$(popup).click(function(e) {
+		if ( e.target == this ) {
+			if ($(popup).is(':visible')) {
+				$(popup).hide();
+			}
+		}
+	});
+
+}
+$(document).ready(function () {
+	$("[data-js=open7]").on("click", function() {
+		popupOpen7($(".popup7"));
+	});
+	$("[data-js=open8]").on("click", function() {
+		popupOpen8($(".popup8"));
+	});
+	$("[data-js=open9]").on("click", function() {
+		popupOpen9($(".popup9"));
+	});
+	$("[data-js=open10]").on("click", function() {
+		popupOpen10($(".popup10"));
+	});
+;
+});
 var animateButton = function(e) {
 
   e.preventDefault;
   //reset animation
   e.target.classList.remove('animate');
-  
+
   e.target.classList.add('animate');
   setTimeout(function(){
     e.target.classList.remove('animate');
   },700);
-  
+
 };
 var bubblyButtons = document.getElementsByClassName("bubbly-button");
 
