@@ -1,11 +1,11 @@
 h2{
     text-align:center;
-    font-family: 'Architects Daughter', cursive;
+   font-family: 'Bellota Text', cursive;
     font-size:45px;
     margin-bottom: 5%;
-     text-shadow: 2px 2px black;
+     text-shadow: 2px 2px grey;
     font-weight: bold;
-    color:white;
+    color:black;
     }
 
 
@@ -73,8 +73,8 @@ h2{
 
 
     body{
-    background: rgb(0,33,199);
-    background: radial-gradient(circle, rgba(0,33,199,1) 0%, rgba(0,0,0,1) 100%);
+    background: rgb(190,244,255);
+background: linear-gradient(90deg, rgba(190,244,255,1) 0%, rgba(255,255,255,1) 45%, rgba(190,250,255,1) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,8 +108,10 @@ h2{
     }
     #sponsorss{
       height: 48vh;
-      background-image:url(https://digitaladdictsblog.com/wp-content/uploads/2019/01/shutterstock_295846730.jpg);
+      background-image:url(https://wallpaperaccess.com/full/983279.jpg);
       background-size: contain;
+      background-repeat: no-repeat;
+    background-size: cover;
 
         background-position: center;
         position: relative;
@@ -127,7 +129,7 @@ h2{
 
     b{font-size: 42px;
      text-shadow: 2px 2px grey;
-       font-family: 'Architects Daughter', cursive;
+     font-family: 'Bellota Text', cursive;
     }
     .container {
       position: relative;
@@ -448,7 +450,7 @@ h2{
     @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
     * {
-     font-family: 'Architects Daughter', cursive;
+ font-family: 'Bellota Text', cursive;
     }
 
 
@@ -459,6 +461,7 @@ h2{
       width: 100%;
       text-align: left;
       font: bold 16px sans-serif;
+      
       padding: 55px 50px;
     }
 
@@ -679,7 +682,7 @@ h2{
     margin: 20px 0 0 0;
  }
  .view p {
-    font-family: Georgia, serif;
+ font-family: 'Bellota Text', cursive;
     font-style: italic;
     font-size: 12px;
     position: relative;
@@ -868,7 +871,7 @@ h2{
 }
 
 .bubbly-button {
-  font-family: 'Helvetica', 'Arial', sans-serif;
+font-family: 'Bellota Text', cursive;
   display: inline-block;
   font-size: 1.2em;
   font-weight: 800;
