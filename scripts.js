@@ -124,33 +124,6 @@ function popupOpen6(popup) {
 
 }
 
-$(document).ready(function () {
-	$("[data-js=open1]").on("click", function() {
-		popupOpen1($(".popup1"));
-	});
-	$("[data-js=open2]").on("click", function() {
-		popupOpen2($(".popup2"));
-	});
-	$("[data-js=open3]").on("click", function() {
-		popupOpen3($(".popup3"));
-	});
-	$("[data-js=open4]").on("click", function() {
-		popupOpen4($(".popup4"));
-	});
-	$("[data-js=open5]").on("click", function() {
-		popupOpen5($(".popup5"));
-	});
-	$("[data-js=open6]").on("click", function() {
-		popupOpen6($(".popup6"));
-	});
-	$("[data-js=open7]").on("click", function() {
-		popupOpen6($(".popup7"));
-	});
-});
-
-
-// **********************major events************
-
 function popupOpen7(popup) {
 
 	/* Add div inside popup for layout if one doesn't exist */
@@ -171,11 +144,12 @@ function popupOpen7(popup) {
 	});
 
 }
+
 function popupOpen8(popup) {
 
 	/* Add div inside popup for layout if one doesn't exist */
 	if ($(".wrapper8").length == 0){
-		$(popup).wrapInner("<div class='wrapper6'></div>");
+		$(popup).wrapInner("<div class='wrapper8'></div>");
 	}
 
 	/* Open popup */
@@ -191,6 +165,7 @@ function popupOpen8(popup) {
 	});
 
 }
+
 function popupOpen9(popup) {
 
 	/* Add div inside popup for layout if one doesn't exist */
@@ -231,7 +206,66 @@ function popupOpen10(popup) {
 	});
 
 }
+function popupOpen11(popup) {
+
+	/* Add div inside popup for layout if one doesn't exist */
+	if ($(".wrapper11").length == 0){
+		$(popup).wrapInner("<div class='wrapper11'></div>");
+	}
+
+	/* Open popup */
+	$(popup).show();
+
+	/* Close popup if user clicks on background */
+	$(popup).click(function(e) {
+		if ( e.target == this ) {
+			if ($(popup).is(':visible')) {
+				$(popup).hide();
+			}
+		}
+	});
+
+}
+function popupOpen12(popup) {
+
+	/* Add div inside popup for layout if one doesn't exist */
+	if ($(".wrapper12").length == 0){
+		$(popup).wrapInner("<div class='wrapper12'></div>");
+	}
+
+	/* Open popup */
+	$(popup).show();
+
+	/* Close popup if user clicks on background */
+	$(popup).click(function(e) {
+		if ( e.target == this ) {
+			if ($(popup).is(':visible')) {
+				$(popup).hide();
+			}
+		}
+	});
+
+}
+
 $(document).ready(function () {
+	$("[data-js=open1]").on("click", function() {
+		popupOpen1($(".popup1"));
+	});
+	$("[data-js=open2]").on("click", function() {
+		popupOpen2($(".popup2"));
+	});
+	$("[data-js=open3]").on("click", function() {
+		popupOpen3($(".popup3"));
+	});
+	$("[data-js=open4]").on("click", function() {
+		popupOpen4($(".popup4"));
+	});
+	$("[data-js=open5]").on("click", function() {
+		popupOpen5($(".popup5"));
+	});
+	$("[data-js=open6]").on("click", function() {
+		popupOpen6($(".popup6"));
+	});
 	$("[data-js=open7]").on("click", function() {
 		popupOpen7($(".popup7"));
 	});
@@ -244,8 +278,19 @@ $(document).ready(function () {
 	$("[data-js=open10]").on("click", function() {
 		popupOpen10($(".popup10"));
 	});
-;
+	$("[data-js=open11]").on("click", function() {
+		popupOpen11($(".popup11"));
+	});
+	$("[data-js=open12]").on("click", function() {
+		popupOpen12($(".popup12"));
+	});
 });
+
+
+// **********************major events************
+
+
+
 var animateButton = function(e) {
 
   e.preventDefault;
