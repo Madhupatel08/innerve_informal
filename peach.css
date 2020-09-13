@@ -411,6 +411,14 @@ background: linear-gradient(90deg, rgba(190,244,255,1) 0%, rgba(255,255,255,1) 4
         width:80%;
 
       }
+       .ml-auto, .mx-auto {
+    margin-left: 60px !important;
+
+
+    }
+    .mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
 
 
     }
@@ -423,6 +431,14 @@ background: linear-gradient(90deg, rgba(190,244,255,1) 0%, rgba(255,255,255,1) 4
         width:80%;
 
       }
+        .ml-auto, .mx-auto {
+    margin-left: 60px !important;
+
+
+    }
+    .mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
 
     }
 
@@ -435,9 +451,15 @@ background: linear-gradient(90deg, rgba(190,244,255,1) 0%, rgba(255,255,255,1) 4
         width:80%;
 
       }
+      .ml-auto, .mx-auto {
+    margin-left: 60px !important;
+
 
     }
-
+    .mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+}
     /*********************************************************************/
     @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
