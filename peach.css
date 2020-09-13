@@ -160,7 +160,9 @@ background: linear-gradient(90deg, rgba(190,244,255,1) 0%, rgba(255,255,255,1) 4
       transform: translate(-50%, -50%);
       text-align: center;
     }
-
+    .img-major{
+      border-radius: 50%;
+    }
     .other-sponsors{
       padding: 20px;
 
@@ -177,7 +179,7 @@ background: linear-gradient(90deg, rgba(190,244,255,1) 0%, rgba(255,255,255,1) 4
     }
 
     .hiddentext {
-      display:  ;
+      display: ;
     }
     .hiddendiv:hover {
 
@@ -627,7 +629,7 @@ background: linear-gradient(90deg, rgba(190,244,255,1) 0%, rgba(255,255,255,1) 4
 
 
 
-   -----------------/* minor events picture animation*/----------------------
+   /* minor events picture animation*/
 
 
 a{
@@ -798,7 +800,7 @@ p, button {
   background: red;
 }
 
-.popup1, .popup2, .popup3, .popup4, .popup5, .popup6, .popup7, .popup8, .popup9, .popup10, .popup11, .popup12 {
+.popup1, .popup2, .popup3, .popup4, .popup5, .popup6, .popup7, .popup8, .popup9, .popup10, .popup11, .popup12, .popup13, .popup14 {
   background: rgba(100, 100, 100, 0.5);
   position: fixed;
   display: none;
@@ -809,26 +811,26 @@ p, button {
   top: 0;
 }
 
-.popup1 h2, .popup2 h2, .popup3 h2, .popup4 h2, .popup5 h2, .popup6 h2, .popup7 h2, .popup8 h2, .popup9 h2, .popup10 h2, .popup11 h2, .popup12 h2 {
+.popup1 h2, .popup2 h2, .popup3 h2, .popup4 h2, .popup5 h2, .popup6 h2, .popup7 h2, .popup8 h2, .popup9 h2, .popup10 h2, .popup11 h2, .popup12 h2, .popup13 h2, .popup14 h2 {
   font-size: 45px;
   text-align: center;
   color: #fff;
   margin: 0 0 30px 0;
 }
 
-.popup1 p, .popup2 p, .popup3 p, .popup4 p, .popup5 p, .popup6 p, .popup7 p, .popup8 p, .popup9 p, .popup10 p, .popup11 p, .popup12 p {
+.popup1 p, .popup2 p, .popup3 p, .popup4 p, .popup5 p, .popup6 p, .popup7 p, .popup8 p, .popup9 p, .popup10 p, .popup11 p, .popup12 p, .popup13 p, .popup14 p {
   color: #fff;
   font-size: 15px;
 }
 
-.popup1 img, .popup2 img, .popup3 img, .popup4 img, .popup5 img, .popup6 img, .popup7 img, .popup8 img, .popup9 img, .popup10 img, .popup11 img, .popup12 img{
+.popup1 img, .popup2 img, .popup3 img, .popup4 img, .popup5 img, .popup6 img, .popup7 img, .popup8 img, .popup9 img, .popup10 img, .popup11 img, .popup12 img, .popup13 img, .popup14 img{
   float: left; 
   width: 200px; 
   height: 150px;
   padding: 10px
 }
 
-.popup1 > div, .popup2 > div, .popup3 > div, .popup4 > div, .popup5 > div, .popup6 > div, .popup7 > div, .popup8 > div, .popup9 > div, .popup10 > div, .popup11 > div, .popup12 > div {
+.popup1 > div, .popup2 > div, .popup3 > div, .popup4 > div, .popup5 > div, .popup6 > div, .popup7 > div, .popup8 > div, .popup9 > div, .popup10 > div, .popup11 > div, .popup12 > div, .popup13 > div, .popup14 > div{
   max-width: 600px;
   width: 70%;
   position: fixed;

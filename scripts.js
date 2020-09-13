@@ -244,8 +244,45 @@ function popupOpen12(popup) {
 			}
 		}
 	});
-
 }
+	function popupOpen13(popup) {
+
+		/* Add div inside popup for layout if one doesn't exist */
+		if ($(".wrapper13").length == 0){
+			$(popup).wrapInner("<div class='wrapper13'></div>");
+		}
+	
+		/* Open popup */
+		$(popup).show();
+	
+		/* Close popup if user clicks on background */
+		$(popup).click(function(e) {
+			if ( e.target == this ) {
+				if ($(popup).is(':visible')) {
+					$(popup).hide();
+				}
+			}
+		});
+	}
+		function popupOpen14(popup) {
+
+			/* Add div inside popup for layout if one doesn't exist */
+			if ($(".wrapper14").length == 0){
+				$(popup).wrapInner("<div class='wrapper14'></div>");
+			}
+		
+			/* Open popup */
+			$(popup).show();
+		
+			/* Close popup if user clicks on background */
+			$(popup).click(function(e) {
+				if ( e.target == this ) {
+					if ($(popup).is(':visible')) {
+						$(popup).hide();
+					}
+				}
+			});
+		}
 
 $(document).ready(function () {
 	$("[data-js=open1]").on("click", function() {
@@ -283,6 +320,12 @@ $(document).ready(function () {
 	});
 	$("[data-js=open12]").on("click", function() {
 		popupOpen12($(".popup12"));
+	});
+	$("[data-js=open13]").on("click", function() {
+		popupOpen13($(".popup13"));
+	});
+	$("[data-js=open14]").on("click", function() {
+		popupOpen14($(".popup14"));
 	});
 });
 
